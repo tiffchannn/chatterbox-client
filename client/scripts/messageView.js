@@ -10,3 +10,5 @@ var MessageView = {
     `)
 
 };
+
+//model for one SINGLE message
