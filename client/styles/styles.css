@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    background: rgb(22, 18, 18);
     text-align: center;
     padding: 0 25px;
     font-family: arial, sans-serif;
@@ -9,7 +9,7 @@ body {
     width: 500px;
     margin: auto;
     text-align: left;
-    background: white;
+    background: grey;
     padding: 50px 60px;
     border: solid #ddd;
     border-width: 0 1px 1px 1px;
@@ -59,6 +59,11 @@ form input[type=text] {
     padding: 5px;
 }
 
+.title {
+    font-size: 20px;
+    font-family: Impact;
+}
+
 .chat {
     padding: 5px;
     margin-bottom: 5px;
@@ -86,5 +91,17 @@ form input[type=text] {
 .friend {
     color: #fff;
     background-color: #0090da;
+}
+
+.userName {
+    text-decoration: none;
+    color: aqua;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
