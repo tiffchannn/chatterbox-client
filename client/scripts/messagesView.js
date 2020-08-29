@@ -10,11 +10,7 @@ var MessagesView = {
       data: { order: '-createdAt' },
       success: function(data) {
         let uniqRooms = [];
-        //when chatterbox is run
-        //iterate over the data.results
-
         for (let i = 0; i < data.results.length; i++) {
-          //first add all the text to Messages obj (make sure key is their username)
           let userName = data.results[i].username;
           let text = data.results[i].text;
           let roomName = data.results[i].roomname;
