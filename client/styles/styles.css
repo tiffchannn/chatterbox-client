@@ -93,7 +93,7 @@ form input[type=text] {
     background-color: #0090da;
 }
 
-.userName {
+.username {
     text-decoration: none;
     color: aqua;
 }
@@ -105,3 +105,6 @@ form input[type=text] {
     border-radius: 5px;
 }
 
+.chat {
+    background-color: pink;
+}
