@@ -45,7 +45,7 @@ var MessagesView = {
     MessagesView.$chats.prepend($message);
   },
 
-  // render all messages
+
   render: function() {
 
   }
